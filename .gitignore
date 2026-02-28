@@ -1,0 +1,7 @@
+classification_dataset
+classification_dataset_augmented
+images
+labels
+finegrained_classification/train
+finegrained_classification/val
+sperm_pipeline/results/seg_000/crops

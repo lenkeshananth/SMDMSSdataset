@@ -1,0 +1,22 @@
+MORPHOLOGY DEFECTS - EVALUATION REPORT
+======================================================================
+
+Classes              Se           Sp           Precision    Accuracy    
+--------------------------------------------------------------------
+Combined_Anomaly     64%          59%          54%          61%         
+Head_Anomaly         64%          61%          53%          62%         
+Midpiece_Anomaly     0%           100%         0%           98%         
+Normal               0%           100%         0%           88%         
+Tail_Anomaly         0%           100%         0%           98%         
+--------------------------------------------------------------------
+Average              26%         84%         21%         81%
+
+
+CONFUSION MATRIX
+======================================================================
+                  Combined_Anomaly  Head_Anomaly  Midpiece_Anomaly  Normal  Tail_Anomaly
+Combined_Anomaly                55            31                 0       0             0
+Head_Anomaly                    30            53                 0       0             0
+Midpiece_Anomaly                 2             3                 0       0             0
+Normal                          11            13                 0       0             0
+Tail_Anomaly                     4             0                 0       0             0

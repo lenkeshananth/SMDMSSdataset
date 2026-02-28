@@ -1,0 +1,16 @@
+IMPROVED vs ORIGINAL MODEL COMPARISON
+======================================================================
+
+Metric                        Original     Improved
+-------------------------------------------------
+Avg Sensitivity                 25.6%       30.9%
+Avg Specificity                 84.0%       85.5%
+Avg Precision                   21.4%       33.9%
+Avg Accuracy                    81.4%       82.2%
+Avg F1-Score                    23.3%       30.6%
+Overall Accuracy                  ~53%       55.4%
+
+
+Per-class:
+
+Combined_Anomaly:

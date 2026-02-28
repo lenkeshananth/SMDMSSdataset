@@ -1,0 +1,11 @@
+names:
+- sperm
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: sperm-uz33u
+  url: https://universe.roboflow.com/abhijeet-t8xgm/sperm-uz33u/dataset/1
+  version: 1
+  workspace: abhijeet-t8xgm
+train: d:\paper\SMDMSSdataset-20260226T103306Z-1-001\SMDMSSdataset\sperm.v1i.yolov8\train\images
+val: d:\paper\SMDMSSdataset-20260226T103306Z-1-001\SMDMSSdataset\sperm.v1i.yolov8\valid\images
