@@ -1,0 +1,26 @@
+venv/
+.env
+
+# Datasets
+classification_*
+sperm.v1i.yolov8/
+priority_3_augmented_dataset/
+priority_3_large_augmented_dataset/
+finegrained_classification/train/
+finegrained_classification/val/
+images/
+labels/
+
+# Model Weights and Training Outputs
+runs/
+efficientnet_training/weights/
+priority_1_class_weights/weights/
+priority_1_class_weights/yolo_runs/
+priority_3_augmentation/weights/
+priority_3_augmentation/yolo_runs/
+priority_4_ensemble/runs/
+
+# Pipeline Results
+sperm_pipeline/results/
+sperm_pipeline/__pycache__/
+SPERM*
