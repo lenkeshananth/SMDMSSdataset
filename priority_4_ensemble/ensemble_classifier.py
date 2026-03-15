@@ -46,8 +46,8 @@ BASE_DIR = Path(r"D:\Krishna\SMDMSSdataset")
 DETECTION_MODEL = BASE_DIR / "sperm.v1i.yolov8" / "runs" / "detect" / "sperm_detection" / "weights" / "best.pt"
 
 # Use the WEIGHTED (Priority 1) models for ensembling — they're the best individual models
-YOLO_CLS_PATH = BASE_DIR / "priority_1_class_weights" / "yolo_runs" / "sperm_cls_weighted" / "weights" / "best.pt"
-EFFNET_PATH = BASE_DIR / "priority_1_class_weights" / "weights" / "efficientnet_b0_weighted.pt"
+YOLO_CLS_PATH = BASE_DIR / "priority_3_augumentation" / "yolo_runs" / "sperm_cls_weighted" / "weights" / "best.pt"
+EFFNET_PATH = BASE_DIR / "priority_3_augumentation" / "weights" / "efficientnet_b0_weighted.pt"
 
 # Fallback to original models if weighted don't exist
 YOLO_CLS_FALLBACK = BASE_DIR / "runs" / "classify" / "runs" / "sperm_cls_balanced" / "weights" / "best.pt"
